@@ -2,7 +2,6 @@
 @section('title', 'Punjab Seva Kendra - Online Government Services in Punjab')
 
 @section('content')
-@include('chatbot.widget')
 
 <section class="hero-wrap js-fullheight" style="background-image: url('{{ asset('images/punjab-seva-kendra.jpg') }}');" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
