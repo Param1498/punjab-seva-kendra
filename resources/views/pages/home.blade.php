@@ -14,7 +14,7 @@
                         <span style="color:#f4c542;">ਹੁਣ ਔਨਲਾਈਨ - ਘਰ ਬੈਠੇ</span>
                     </h1>
                     <p class="mb-2" style="font-size:1.1rem;">
-                        Gett your government certificates, documents, and applications processed <strong>fast, correctly, and affordably</strong> — without standing in long queues.
+                        Get your government certificates, documents, and applications processed <strong>fast, correctly, and affordably</strong> — without standing in long queues.
                     </p>
                     <p class="mb-4" style="font-size:0.95rem;opacity:0.85;">
                         Aadhaar &middot; PAN &middot; Income Certificate &middot; Caste Certificate &middot; Voter ID &middot; and 50+ more services across Punjab.
