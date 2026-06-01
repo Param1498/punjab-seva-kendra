@@ -91,7 +91,7 @@
                         <!-- <p>Punjab Seva Kendra is a trusted, Common Service Centre (CSC) helping citizens across Punjab navigate complex government portals and document processes — quickly, affordably, and without stress.</p>
                         <p>Whether you need an income certificate for a scholarship, a caste certificate for a job, Aadhaar correction, or a PAN card for your business — our trained operators handle everything end-to-end so you don't have to.</p> -->
                         <ul class="list-unstyled mt-3" style="line-height:2;">
-                            <li><span class="fa fa-check-circle text-primary mr-2"></span> Government-authorised CSC operator</li>
+                            <!-- <li><span class="fa fa-check-circle text-primary mr-2"></span> Government-authorised CSC operator</li> -->
                             <li><span class="fa fa-check-circle text-primary mr-2"></span> 50+ services available in one place</li>
                             <li><span class="fa fa-check-circle text-primary mr-2"></span> Available in Punjabi, Hindi and English</li>
                             <li><span class="fa fa-check-circle text-primary mr-2"></span> WhatsApp and phone support</li>
