@@ -4,7 +4,7 @@
             <div class="col-sm text-center text-md-left mb-md-0 mb-2 pr-md-4 d-flex topper align-items-center">
                 <p class="mb-0 w-100">
                     <span class="fa fa-paper-plane"></span>
-                    <span class="text">{{ config('site.email', 'info@yourdomain.com') }}</span>
+                    <span class="text">{{ config('site.email', 'info@punjabsevakendra.in') }}</span>
                 </p>
             </div>
             <div class="col-sm justify-content-center d-flex mb-md-0 mb-2">
