@@ -248,9 +248,9 @@
                     <a href="{{ url('/track-application') }}" class="psk-track mr-3">
                         <span class="fa fa-map-marker mr-1"></span> Track Application
                     </a>
-                    <a href="#" class="psk-cta" data-toggle="modal" data-target="#exampleModalCenter">
+                    <!-- <a href="#" class="psk-cta" data-toggle="modal" data-target="#exampleModalCenter">
                         Book Appointment
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
