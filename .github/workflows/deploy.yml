@@ -16,7 +16,7 @@ jobs:
           username: u143094305
           password: ${{ secrets.SSH_PASSWORD }}
           script: |
-            cd ~/domains/punjabsevakendra.in/public_html
+            cd ~/domains/punjabsaathi.in/public_html
             git fetch origin
             git reset --hard origin/main
             php artisan migrate --force
