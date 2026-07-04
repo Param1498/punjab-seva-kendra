@@ -3,6 +3,7 @@ name: Deploy to Hostinger
 on:
   push:
     branches: [main]
+  workflow_dispatch: {}
 
 jobs:
   deploy:
@@ -15,11 +16,18 @@ jobs:
           port: 65002
           username: u143094305
           password: ${{ secrets.SSH_PASSWORD }}
+          command_timeout: 10m
+          script_stop: true
+          debug: true
           script: |
-            cd ~/domains/punjabsevakendra.in/public_html
+            set -e
+            cd ~/domains/punjabsaathi.in/public_html
+            echo "Current directory: $(pwd)"
             git fetch origin
             git reset --hard origin/main
+            echo "Latest commit: $(git log -1 --oneline)"
             php artisan migrate --force
             php artisan config:cache
             php artisan route:cache
             php artisan view:cache
+            echo "Deployment finished successfully"
