@@ -26,7 +26,16 @@ Route::get('/test-widget', function () {
     return view('chatbot.Widget');
 });
 
-Route::get('/',         [HomeController::class, 'index'])->name('home');
+// Route::get('/',         [HomeController::class, 'index'])->name('home');
+// Old:
+// Route::get('/', [HomeController::class, 'index'])->name('home');
+
+// New — root shows Coming Soon:
+Route::get('/{any}', function () {
+    return view('coming-soon');
+})->where('any', '.*');
+
+
 Route::get('/about',    [HomeController::class, 'about'])->name('about');
 Route::get('/services', [HomeController::class, 'services'])->name('services');
 Route::get('/projects', [HomeController::class, 'projects'])->name('projects');
