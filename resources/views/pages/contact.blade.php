@@ -1,24 +1,25 @@
 @extends('layouts.app')
 
-<!-- @section('title', 'Contact Punjab Seva Kendra | Government Service Assistance in Amritsar')
+<!-- @section('title', 'Contact Punjab Saathi | Government Service Assistance in Amritsar')
 
-@section('meta_description', 'Contact Punjab Seva Kendra for government application assistance, online service help, and CSC support in Punjab. Call, WhatsApp, or visit our office in Amritsar.')
+@section('meta_description', 'Contact Punjab Saathi for government application assistance, online service help, and CSC support in Punjab. Call, WhatsApp, or visit our office in Amritsar.')
  -->
-<meta name="keywords" content="Punjab Seva Kendra contact, Contact Punjab Seva Kendra, Punjab Seva Kendra support, government service help in Punjab, online government application assistance, CSC Amritsar">
+<meta name="keywords" content="Punjab Saathi contact, Contact Punjab Saathi, Punjab Saathi support, government service help in Punjab, online government application assistance, CSC Amritsar">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="{{ url('/contact') }}">
 
 <meta property="og:type"        content="website">
-<meta property="og:title"       content="Contact Punjab Seva Kendra | Government Service Assistance">
-<meta property="og:description" content="Get in touch with Punjab Seva Kendra for government service assistance.">
+<meta property="og:title"       content="Contact Punjab Saathi | Government Service Assistance">
+<meta property="og:description" content="Get in touch with Punjab Saathi for government service assistance.">
 <meta property="og:url"         content="{{ url('/contact') }}">
-<meta property="og:site_name"   content="Punjab Seva Kendra">
+<meta property="og:site_name"   content="Punjab Saathi">
 <meta property="og:image"       content="{{ asset('images/og-contact.jpg') }}">
 
 <meta name="twitter:card"        content="summary_large_image">
-<meta name="twitter:title"       content="Contact Punjab Seva Kendra | Government Service Assistance">
-<meta name="twitter:description" content="Contact Punjab Seva Kendra for government application assistance and CSC support in Punjab, Amritsar.">
+<meta name="twitter:title"       content="Contact Punjab Saathi | Government Service Assistance">
+<meta name="twitter:description" content="Contact Punjab Saathi for government application assistance and CSC support in Punjab, Amritsar.">
 <meta name="twitter:image"       content="{{ asset('images/og-contact.jpg') }}">
+
 
 <style>
 .psk-contact-hero {
@@ -278,7 +279,7 @@
 <div class="psk-disclaimer-bar" role="note">
     <div class="container">
         <span class="fa fa-info-circle mr-2"></span>
-        <strong>Disclaimer:</strong> Punjab Seva Kendra is a <strong>private assistance platform</strong>
+        <strong>Disclaimer:</strong> Punjab Saathi is a <strong>private assistance platform</strong>
         and is <strong>not an official government website</strong>. We help citizens apply through
         authorised government portals as a Common Service Centre (CSC).
     </div>
@@ -490,18 +491,18 @@
                         </div>
                         <div>
                             <span class="psk-info-card__label">Phone / Helpline</span>
-                            <p class="psk-info-card__value">+91 98765-XXXXX</p>
+                            <p class="psk-info-card__value">+91 7710556330</p>
                             <span class="psk-info-card__sub">Mon–Sat · 9 AM–6 PM</span>
                         </div>
                     </a>
 
-                    <a href="mailto:support@punjabsevakendra.in" class="psk-info-card">
+                    <a href="mailto:support@punjabsaathi.in" class="psk-info-card">
                         <div class="psk-info-card__icon-wrap blue">
                             <span class="fa fa-envelope"></span>
                         </div>
                         <div>
                             <span class="psk-info-card__label">Email</span>
-                            <p class="psk-info-card__value">support@punjabsevakendra.in</p>
+                            <p class="psk-info-card__value">support@punjabsaathi.in</p>
                             <span class="psk-info-card__sub">We reply within 24 hours</span>
                         </div>
                     </a>
@@ -512,10 +513,10 @@
                         </div>
                         <div>
                             <span class="psk-info-card__label">Office Address</span>
-                            <p class="psk-info-card__value">Lane No. 12, Shri Hargobind Avenue</p>
+                            <p class="psk-info-card__value">Shop No : 1, </p>
                             <span class="psk-info-card__sub">
-                                Sher Shah Suri Road, Chherrata<br>
-                                Amritsar, Punjab 143001
+                                Lal Market, Near OHM Omjee Cinema,<br>
+                                Grand Trunk Rd, 143001, Amritsar.
                             </span>
                         </div>
                     </div>
@@ -551,7 +552,7 @@
                         <span class="fa fa-whatsapp"></span>
                         <h4>Prefer WhatsApp?</h4>
                         <p>Send your documents and queries directly. No app download needed.</p>
-                        <a href="https://wa.me/9198765XXXXX?text=Hello%20Punjab%20Seva%20Kendra%2C%20I%20need%20help%20with%20a%20government%20service."
+                        <a href="https://wa.me/917710556330"
                            target="_blank" rel="noopener noreferrer"
                            class="psk-btn-wa">
                             <span class="fa fa-whatsapp"></span>
@@ -581,10 +582,10 @@
         <div class="psk-map-wrapper ftco-animate">
             <div class="psk-map-label">
                 <span class="fa fa-map-marker"></span>
-                Punjab Seva Kendra, Amritsar
+                Punjab Saathi, Amritsar
             </div>
             <iframe
-                title="Punjab Seva Kendra location on Google Maps"
+                title="Punjab Saathi location on Google Maps"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396.3!2d74.8723!3d31.6340!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDM4JzAyLjQiTiA3NMKwNTInMjAuMyJF!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin"
                 allowfullscreen=""
                 loading="lazy"
@@ -654,11 +655,11 @@
                 <div class="psk-faq-new__item">
                     <div class="psk-faq-new__q" role="button" tabindex="0" aria-expanded="false">
                         <div class="psk-faq-new__num">4</div>
-                        <span class="psk-faq-new__q-text">Is Punjab Seva Kendra an official government office?</span>
+                        <span class="psk-faq-new__q-text">Is Punjab Saathi an official government office?</span>
                         <span class="fa fa-chevron-down psk-faq-new__chevron"></span>
                     </div>
                     <div class="psk-faq-new__a">
-                        Punjab Seva Kendra is an authorised Common Service Centre (CSC) — a private assistance platform that helps citizens apply through official government portals. We are not a government office, but we work with government systems to assist you.
+                        Punjab Saathi is an authorised Common Service Centre (CSC) — a private assistance platform that helps citizens apply through official government portals. We are not a government office, but we work with government systems to assist you.
                     </div>
                 </div>
 

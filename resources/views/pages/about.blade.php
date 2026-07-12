@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About Us - Punjab Seva Kendra | Trusted Government Services in Punjab')
+@section('title', 'About Us - Punjab Saathi | Trusted Government Services in Punjab')
 
 @section('content')
 
@@ -18,7 +18,7 @@
                     </span>
                     <span>About Us <i class="fa fa-chevron-right"></i></span>
                 </p>
-                <h1 class="mb-0 bread">About Punjab Seva Kendra</h1>
+                <h1 class="mb-0 bread">About Punjab Saathi</h1>
             </div>
         </div>
     </div>
@@ -51,7 +51,7 @@
                             <h3>Making government services simple for every Punjabi</h3>
                         </div>
 
-                        <!-- <p>Punjab Seva Kendra is a trusted digital service centre helping citizens across Punjab navigate complex government portals, certificates, and document processes — quickly, affordably, and without stress.</p> -->
+                        <!-- <p>Punjab Saathi is a trusted digital service centre helping citizens across Punjab navigate complex government portals, certificates, and document processes — quickly, affordably, and without stress.</p> -->
 
                         <p>We believe every citizen of Punjab deserves easy, fast, and honest access to government services — whether they live in Ludhiana, a small village in Sangrur, or anywhere across the state. You don't need to stand in long queues or make multiple trips to government offices. We handle everything for you, online, from the comfort of your home.</p>
                     </div>
@@ -132,7 +132,7 @@
             <div class="col-md-6 d-flex align-items-center py-5 pr-md-5">
                 <div>
                     <span style="display:inline-block;background:#fc5e28;color:#fff;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;padding:5px 14px;border-radius:30px;margin-bottom:20px;">
-                        Punjab Seva Kendra
+                        Punjab Saathi
                     </span>
 
                     <h2 style="font-size:38px;font-weight:800;color:#fff;line-height:1.25;margin-bottom:20px;">
@@ -245,7 +245,7 @@
         <div class="row justify-content-center mb-5 pb-2">
             <div class="col-md-8 text-center heading-section ftco-animate">
                 <span class="subheading">Simple Process</span>
-                <h2 class="mb-4">How Punjab Seva Kendra Works</h2>
+                <h2 class="mb-4">How Punjab Saathi Works</h2>
                 <p class="text-muted">Getting your government work done is as simple as 4 easy steps — all from WhatsApp or our website.</p>
             </div>
         </div>
@@ -388,7 +388,7 @@
             <div class="col-md-8 text-center heading-section ftco-animate">
                 <span class="subheading">Why Choose Us</span>
                 <h2 class="mb-4">Why 50,000+ Punjab Citizens Trust Us</h2>
-                <p class="text-muted">There are many service centres in Punjab — here is what makes Punjab Seva Kendra different.</p>
+                <p class="text-muted">There are many service centres in Punjab — here is what makes Punjab Saathi different.</p>
             </div>
         </div>
 
@@ -510,7 +510,7 @@
                     'img' => 'person_2.jpg',
                     'name' => 'Harjinder Kaur',
                     'loc' => 'Amritsar',
-                    'text' => "My daughter's scholarship form was submitted perfectly. Punjab Seva Kendra saved us from going to the block office three times. Highly recommended.",
+                    'text' => "My daughter's scholarship form was submitted perfectly. Punjab Saathi saved us from going to the block office three times. Highly recommended.",
                     ],
                     [
                     'img' => 'person_3.jpg',
@@ -522,7 +522,7 @@
                     'img' => 'person_1.jpg',
                     'name' => 'Sukhwinder Kaur',
                     'loc' => 'Patiala',
-                    'text' => 'Meri caste certificate di zaroorat si scholarship lyi. Punjab Seva Kendra ne 3 din vich sab kuch kar ditta. WhatsApp te documents bheje te kaam ho gaya!',
+                    'text' => 'Meri caste certificate di zaroorat si scholarship lyi. Punjab Saathi ne 3 din vich sab kuch kar ditta. WhatsApp te documents bheje te kaam ho gaya!',
                     ],
                     ];
                     @endphp
@@ -688,10 +688,10 @@
 </section>
 
 {{-- Floating WhatsApp Button --}}
-<a href="https://wa.me/91XXXXXXXXXX?text=Hello%2C%20I%20need%20help%20with%20a%20government%20service"
+<a href="https://wa.me/917710556330"
     target="_blank"
     rel="noopener"
-    title="Chat with Punjab Seva Kendra on WhatsApp"
+    title="Chat with Punjab Saathi on WhatsApp"
     style="position:fixed;bottom:24px;right:24px;z-index:9999;background:#25D366;color:#fff;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.7rem;box-shadow:0 4px 18px rgba(37,211,102,0.45);text-decoration:none;">
     <span class="fa fa-whatsapp"></span>
 </a>

@@ -6,7 +6,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>@yield('title', config('app.name', 'Wilcon'))</title>
+    <title>@yield('title', config('app.name', 'Punjab Saathi'))</title>
     <meta name="description" content="@yield('meta_description', 'Wilcon Construction Company')">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -63,5 +63,13 @@
     <script src="{{ asset('js/psk-services-detail.js') }}"></script>
 
     @stack('scripts')
+    
 </body>
 </html>
+<!-- <a href="https://wa.me/917710556330"
+    target="_blank"
+    rel="noopener"
+    title="Chat with Punjab Saathi on WhatsApp"
+    style="position:fixed;bottom:24px;right:24px;z-index:9999;background:#25D366;color:#fff;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.7rem;box-shadow:0 4px 18px rgba(37,211,102,0.45);text-decoration:none;">
+    <span class="fa fa-whatsapp"></span>
+</a> -->

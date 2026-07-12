@@ -1,10 +1,10 @@
 <?php
 return [
-    'name'         => 'Wilcon',
-    'tagline'      => 'Construction Company',
-    'email'        => 'info@punjabsevakendra.in',
-    'phone'        => '+1 234 456 78910',
-    'address'      => '198 West 21th Street, Suite 721 New York NY 10016',
+    'name'         => 'Punjab Saathi',
+    'tagline'      => 'Online Government Services in Punjab',
+    'email'        => 'info@punjabsaathi.in',
+    'phone'        => '+91 7710556330',
+    'address'      => 'Shop No : 1, Lal Market, Near OHM Omjee Cinema, Grand Trunk Rd, 143001, Amritsar.',
     'footer_about' => 'We build great projects with quality construction services since 1975.',
     'social' => [
         'facebook'  => '#',

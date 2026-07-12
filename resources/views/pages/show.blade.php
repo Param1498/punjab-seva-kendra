@@ -18,7 +18,7 @@
 <meta property="og:title"       content="{{ $service->meta_title }}">
 <meta property="og:description" content="{{ $service->meta_description }}">
 <meta property="og:url"         content="{{ $service->canonical_url }}">
-<meta property="og:site_name"   content="Punjab Seva Kendra">
+<meta property="og:site_name"   content="Punjab Saathi">
 @if($service->og_image)
 <meta property="og:image" content="{{ asset('storage/' . $service->og_image) }}">
 @endif
@@ -43,7 +43,7 @@ $serviceSchema = json_encode([
     'description' => $service->meta_description,
     'provider'    => [
         '@type'      => 'LocalBusiness',
-        'name'       => 'Punjab Seva Kendra',
+        'name'       => 'Punjab Saathi',
         'url'        => url('/'),
         'areaServed' => 'Punjab, India',
         'telephone'  => '+91XXXXXXXXXX',
@@ -94,10 +94,14 @@ $serviceSchema = json_encode([
                     <a href="#apply-form" class="btn psk-btn-primary">
                         <span class="fa fa-paper-plane mr-2"></span> Apply Now
                     </a>
-                    <a href="{{ $service->whatsapp_url }}" target="_blank" rel="noopener"
+                    <!-- <a href="{{ $service->whatsapp_url }}" target="_blank" rel="noopener"
                        class="btn psk-btn-whatsapp">
                         <span class="fa fa-whatsapp mr-2"></span> WhatsApp Us
-                    </a>
+                    </a> -->
+                    <a href="https://wa.me/917710556330" target="_blank" rel="noopener"
+                        class="btn psk-btn-whatsapp">
+                            <span class="fa fa-whatsapp mr-2"></span> WhatsApp Us
+                        </a>
                 </div>
             </div>
         </div>
@@ -110,7 +114,7 @@ $serviceSchema = json_encode([
 <div class="psk-disclaimer-bar">
     <div class="container">
         <span class="fa fa-info-circle mr-2"></span>
-        <strong>Disclaimer:</strong> Punjab Seva Kendra is a <strong>private assistance platform</strong>
+        <strong>Disclaimer:</strong> Punjab Saathi is a <strong>private assistance platform</strong>
         and is <strong>not an official government website</strong>. We help citizens apply through
         authorised government portals as a Common Service Centre (CSC).
     </div>
@@ -432,7 +436,7 @@ $serviceSchema = json_encode([
                         <span class="fa fa-whatsapp psk-sidebar-wa__icon"></span>
                         <h4>Get Instant Help</h4>
                         <p>Send your documents on WhatsApp. No visit required.</p>
-                        <a href="{{ $service->whatsapp_url }}" target="_blank" rel="noopener"
+                        <a href="https://wa.me/917710556330" target="_blank" rel="noopener"
                            class="btn psk-btn-whatsapp w-100">
                             <span class="fa fa-whatsapp mr-2"></span> Chat on WhatsApp
                         </a>
@@ -566,7 +570,7 @@ $serviceSchema = json_encode([
 {{-- Fixed WhatsApp bubble --}}
 <a href="{{ $service->whatsapp_url }}"
    target="_blank" rel="noopener"
-   title="WhatsApp Punjab Seva Kendra"
+   title="WhatsApp Punjab Saathi"
    style="position:fixed;bottom:24px;right:24px;z-index:9999;background:#25D366;color:#fff;
           width:58px;height:58px;border-radius:50%;display:flex;align-items:center;
           justify-content:center;font-size:1.7rem;box-shadow:0 4px 18px rgba(37,211,102,0.45);

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', ($category->meta_title ?? $category->name . ' Forms') . ' – Punjab Seva Kendra')
+@section('title', ($category->meta_title ?? $category->name . ' Forms') . ' – Punjab Saathi')
 @section('meta_description', $category->meta_description ?? 'Download ' . $category->name . ' forms online.')
 
 @section('content')

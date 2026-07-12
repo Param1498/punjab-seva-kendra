@@ -126,12 +126,21 @@
                         <x-form-card :form="$form" />
                     @endforeach
                 </div>
-                <div class="mt-4">{{ $forms->links() }}</div>
+                <!-- <div class="mt-4">{{ $forms->links() }}</div> -->
                 @endif
 
             </div>
         </div>
     </div>
 </section>
+
+{{-- Floating WhatsApp Button --}}
+<a href="https://wa.me/917710556330"
+    target="_blank"
+    rel="noopener"
+    title="Chat with Punjab Saathi on WhatsApp"
+    style="position:fixed;bottom:24px;right:24px;z-index:9999;background:#25D366;color:#fff;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.7rem;box-shadow:0 4px 18px rgba(37,211,102,0.45);text-decoration:none;">
+    <span class="fa fa-whatsapp"></span>
+</a>
 
 @endsection
