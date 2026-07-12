@@ -12,7 +12,7 @@
                     <span class="fa fa-phone"></span>
                 </div>
                 <div class="pr-md-4 pl-md-3 pl-3 text">
-                    <p class="con"><span>Free Call</span> <span>{{ config('site.phone', '+1 234 456 78910') }}</span></p>
+                    <p class="con"><span>Free Call </span> <span>{{ config('site.phone', '+91 7710556330') }}</span></p>
                     <p class="con">Call Us Now 24/7 Customer Support</p>
                 </div>
             </div>
@@ -22,7 +22,7 @@
                 </div>
                 <div class="text pl-3 pl-md-3">
                     <p class="hr"><span>Our Location</span></p>
-                    <p class="con">{{ config('site.address', '198 West 21th Street, New York') }}</p>
+                    <p class="con">{{ config('site.address', 'Shop No : 1, Lal Market, Near Guru Nanake dev Universty, 143001') }}</p>
                 </div>
             </div>
         </div>

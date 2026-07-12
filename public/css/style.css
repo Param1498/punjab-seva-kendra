@@ -10843,6 +10843,7 @@ textarea.form-control {
     padding: 30px !important;
     margin-bottom: 0 !important;
     min-height: 200px;
+    margin-left : 5px;
 }
 
 .ftco-section.ftco-no-pt.ftco-no-pb.ftco-services-2 .services .icon {
